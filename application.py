@@ -1,5 +1,6 @@
 from flask import Flask, render_template
-from azure.storage.table import TableService
+from azure.cosmosdb.table.tableservice import TableService
+
 
 app = Flask(__name__)
 
