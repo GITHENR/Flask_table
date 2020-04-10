@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from azure.storage.table import TableService, Entity
+from azure.storage.table import TableService
 
 app = Flask(__name__)
 
