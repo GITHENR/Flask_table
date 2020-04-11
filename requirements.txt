@@ -6,6 +6,7 @@ MarkupSafe==1.0
 Werkzeug==0.14.1
 altgraph==0.17
 azure-cosmosdb-table~=1.0
+azure-common~=1.1
 backcall==0.1.0
 certifi==2018.11.29
 chardet==3.0.4
