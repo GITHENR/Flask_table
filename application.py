@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 from azure.cosmosdb.table.tableservice import TableService
 table_service = TableService(account_name='cloudshell1200761026', account_key='e8CBA/8hhwpondb//pYIJuC0OlRU7VrzyRYbRNAm1BfPPI54e5oQ/iWzXlWEpiNW6hN4fvFmbNJ7ht0nPDXtiA==')
-task = {'PartitionKey': 'first', 'RowKey': '002','ID': '0002', 'address': 'India','stock':20}
-table_service.insert_entity('customer', task)
+task = {'PartitionKey': 'first', 'RowKey': '002','ID': '0002', 'address': 'India','stock':40}
+table_service.insert_entity('customer1', task)
 app = Flask(__name__)
 
 
